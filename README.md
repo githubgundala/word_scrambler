@@ -5,16 +5,16 @@
 2. Jalankan preintah > composer install
 3. Rename file .env.example menjadi .env kemudian jalankan printah php artisan key:generate
 4. Setting file env seperti berikut :
-*APP_NAME="GAME SCRAMBLER"
-*APP_ENV=local
-*APP_URL=http://127.0.0.1:8000
+APP_NAME="GAME SCRAMBLER" <br />
+APP_ENV=local <br />
+APP_URL=http://127.0.0.1:8000 <br />
 
-*DB_CONNECTION=mysql
-*DB_HOST=127.0.0.1
-*DB_PORT=3306
-*DB_DATABASE=game
-*DB_USERNAME=(sesuaikan dengan setting anda)
-*DB_PASSWORD=(sesuaikan dengan setting anda)
+DB_CONNECTION=mysql <br />
+DB_HOST=127.0.0.1 <br />
+DB_PORT=3306 <br />
+DB_DATABASE=game <br />
+DB_USERNAME=(sesuaikan dengan setting anda) <br />
+DB_PASSWORD=(sesuaikan dengan setting anda) <br />
 
 5. Buatlah table dengan nama > game
 6. Jalan kan perintah > php artisan migrate
